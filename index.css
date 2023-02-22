@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    --header_blue: #9abdff;
+    --text-color:black;
+    --subheading-color:black;
+    --heading_color:black;
+}
+.content_body{
+    margin: 0rem 7rem;
+}
+/*--------------------------------------- HEADER ------------------------*/
+.header{
+    margin: 0;
+    background-color: var(--header_blue);
+    display: grid;
+    grid-template-columns: 0.1fr 1fr 0.09fr;
+}
+.header_img{
+    margin: 1rem;
+    width: 4rem;
+}
+.header .links{
+    display: flex;
+}
+.header .links div{
+    padding: 1rem;
+}
+.header .profile{
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem;
+    background-color: rgb(212, 210, 218);
+    border-radius: 50%;
+}
+/*--------------------------------------- MAP ------------------------*/
+.map{
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    height: 28rem;
+    width: 82rem;
+    background-color: rgb(212, 210, 218);
+}
+/*-------------------------------------- FESTS ---------------------------------*/
+.events{
+    padding: 2rem;
+}
+.event_list{
+    margin-left: 2rem;
+}
+
+/* h1 */
+.c_events .current_events{    
+    font-size: 2rem;
+    font-weight: 100;
+    padding: 0.5rem;
+    width: 70%;
+    background-color: var(--header_blue);
+}
+.event_s_i{
+    text-decoration: none;
+    color: black;
+}
+/* h2 */
+.e_n{
+    font-weight: 300;
+}
+.e_d, .e_l, .e_a{
+    padding: 0.2rem;
+}
+.sm_btn_div{
+    text-align: center;
+}
+.sm{
+    padding: 0.5rem 2rem;
+    margin: 2rem;
+}
+
+
+/*-------------------------------------------------------- EVENT PAGE -------------------------------------------------------*/
+.event_content{
+    margin: 0rem 7rem;
+}
+.event_name_h{
+    font-size: 2rem;
+    font-weight: 100;
+    width: 70%;
+}
+
+
+/*----------------------------------------------- FOOTER ---------------------------------------*/
+.footer{
+    height: 20rem;
+    width: 100%;
+    background-color: var(--header_blue);
+}
